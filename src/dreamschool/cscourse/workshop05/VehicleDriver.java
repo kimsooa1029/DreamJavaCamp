@@ -1,11 +1,8 @@
-package dreamschool.cscourse.workshop04;
+package dreamschool.cscourse.workshop05;
 
 public class VehicleDriver {
 	public static void main(String[] args) {
 		VehicleManager vm = new VehicleManager();
 		vm.displayVehicles(">> 재고 목록 <<");
-		
-		//Vehicle v = new Vehicle("dream", 1, 1);
-		// because of abstract in Vehicle
 	}
 }
